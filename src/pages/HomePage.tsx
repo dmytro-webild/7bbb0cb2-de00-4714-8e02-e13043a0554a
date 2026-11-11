@@ -15,7 +15,7 @@ export default function HomePage() {
           tag="Websites for West Valley Shops · tapline.services"
           title="Fast websites for local businesses."
           mutedTitle="for local businesses."
-          description="Get a free custom homepage mockup for your Saratoga, Los Gatos, or Campbell business. Call (415) 530-1293 or request online. Go live in about two weeks."
+          description="Convert more local searchers into paying customers with a high-speed, mobile-first website."
           primaryButton={{
             text: "Get free mockup",
             href: "#contact"
@@ -399,6 +399,7 @@ export default function HomePage() {
               description: "See your homepage built with your real business info and top reviews.",
               features: [
                 "Full homepage visual design",
+                "Customized to your local market",
                 "Uses real reviews & hours",
                 "Mobile optimized layout",
                 "No credit card required"
