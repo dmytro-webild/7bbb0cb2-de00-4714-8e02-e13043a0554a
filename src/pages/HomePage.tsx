@@ -1,6 +1,7 @@
 import HeroFluidDashboard from "@/components/sections/hero/HeroFluidDashboard";
 import ProcessFluidSteps from "@/components/sections/features/ProcessFluidSteps";
 import IntegrationsTileGrid from "@/components/sections/features/IntegrationsTileGrid";
+import LocalAssociations from "@/components/sections/trust/LocalAssociations";
 import PricingFluidPlans from "@/components/sections/pricing/PricingFluidPlans";
 import TestimonialGlassSlider from "@/components/sections/testimonial/TestimonialGlassSlider";
 import FaqStickyAccordion from "@/components/sections/faq/FaqStickyAccordion";
@@ -378,6 +379,10 @@ export default function HomePage() {
             }
           ]}
         />
+      </div>
+
+      <div id="associations" data-webild-section="LocalAssociations" data-webild-section-id="LocalAssociations-1" data-section="associations">
+        <LocalAssociations />
       </div>
 
       <div id="pricing" data-webild-section="PricingFluidPlans" data-webild-section-id="PricingFluidPlans-1" data-section="pricing">
