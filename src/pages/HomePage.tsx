@@ -421,7 +421,7 @@ export default function HomePage() {
             },
             {
               name: "Review Card",
-              price: "$49",
+              price: "$39",
               period: "one-time",
               description: "Custom tap card for your counter so customers leave Google reviews fast.",
               features: [
