@@ -1,3 +1,5 @@
+import ModelStage from "@/components/kit/ModelStage";
+import ParticleYardStage from "@/components/kit/ParticleYardStage";
 import HeroFluidDashboard from "@/components/sections/hero/HeroFluidDashboard";
 import ProcessFluidSteps from "@/components/sections/features/ProcessFluidSteps";
 import IntegrationsTileGrid from "@/components/sections/features/IntegrationsTileGrid";
@@ -9,7 +11,22 @@ import ContactFluidForm from "@/components/sections/contact/ContactFluidForm";
 export default function HomePage() {
   return (
     <>
-      <div id="hero" data-webild-section="HeroFluidDashboard" data-webild-section-id="HeroFluidDashboard-1" data-section="hero">
+      <ModelStage
+        src="https://storage.googleapis.com/webild/default/models/card-metal/model.8979a05d7ff6.glb"
+        scale={1.9}
+        autoRotate={8}
+        float={1.2}
+      />
+      <ParticleYardStage variant="tech" density={0.85} />
+
+      <div
+        id="hero"
+        data-webild-section="HeroFluidDashboard"
+        data-webild-section-id="HeroFluidDashboard-1"
+        data-section="hero"
+        data-particle="hero"
+        data-model='[{"x":0.38,"y":0.04,"rx":22,"ry":-28,"rz":12,"scale":1.25,"opacity":1},{"at":1,"x":0.36,"y":-0.05,"rx":-12,"ry":38,"rz":-8,"scale":1.32,"opacity":1}]'
+      >
         <HeroFluidDashboard
           tag="Websites for West Valley Shops · tapline.services"
           title="Fast websites for local businesses."
@@ -173,7 +190,14 @@ export default function HomePage() {
         />
       </div>
 
-      <div id="process" data-webild-section="ProcessFluidSteps" data-webild-section-id="ProcessFluidSteps-1" data-section="process">
+      <div
+        id="process"
+        data-webild-section="ProcessFluidSteps"
+        data-webild-section-id="ProcessFluidSteps-1"
+        data-section="process"
+        data-particle="overview"
+        data-model='[{"at":0,"x":-0.38,"y":0.06,"rx":-15,"ry":140,"rz":15,"scale":1.22,"opacity":1},{"at":0.5,"x":-0.34,"y":-0.02,"rx":25,"ry":220,"rz":-10,"scale":1.35,"opacity":1},{"at":1,"x":-0.38,"y":-0.08,"rx":10,"ry":310,"rz":5,"scale":1.22,"opacity":1}]'
+      >
         <ProcessFluidSteps
           tag="How it works"
           title="From free mockup to live site in two weeks."
@@ -305,7 +329,14 @@ export default function HomePage() {
         />
       </div>
 
-      <div id="integrations" data-webild-section="IntegrationsTileGrid" data-webild-section-id="IntegrationsTileGrid-1" data-section="integrations">
+      <div
+        id="integrations"
+        data-webild-section="IntegrationsTileGrid"
+        data-webild-section-id="IntegrationsTileGrid-1"
+        data-section="integrations"
+        data-particle="scan"
+        data-model='[{"at":0,"x":0.38,"y":-0.06,"rx":28,"ry":-65,"rz":-15,"scale":1.15,"opacity":1},{"at":1,"x":0.35,"y":0.05,"rx":-25,"ry":35,"rz":12,"scale":1.25,"opacity":1}]'
+      >
         <IntegrationsTileGrid
           label="Sample sites"
           title="Built to fit your local business."
@@ -380,11 +411,25 @@ export default function HomePage() {
         />
       </div>
 
-      <div id="about" data-webild-section="AboutLocalStudents" data-webild-section-id="AboutLocalStudents-1" data-section="about">
+      <div
+        id="about"
+        data-webild-section="AboutLocalStudents"
+        data-webild-section-id="AboutLocalStudents-1"
+        data-section="about"
+        data-particle="ambient"
+        data-model='[{"at":0,"x":-0.35,"y":0.02,"rx":-18,"ry":75,"rz":8,"scale":1.2,"opacity":1},{"at":1,"x":-0.38,"y":-0.04,"rx":22,"ry":-45,"rz":-12,"scale":1.3,"opacity":1}]'
+      >
         <AboutLocalStudents />
       </div>
 
-      <div id="pricing" data-webild-section="PricingFluidPlans" data-webild-section-id="PricingFluidPlans-1" data-section="pricing">
+      <div
+        id="pricing"
+        data-webild-section="PricingFluidPlans"
+        data-webild-section-id="PricingFluidPlans-1"
+        data-section="pricing"
+        data-particle="hero"
+        data-model='[{"at":0,"x":0.38,"y":0.12,"rx":55,"ry":-20,"rz":25,"scale":1.35,"opacity":1},{"at":0.5,"x":0,"y":-0.12,"rx":70,"ry":0,"rz":-15,"scale":1.5,"opacity":1},{"at":1,"x":-0.38,"y":0.08,"rx":-40,"ry":60,"rz":-20,"scale":1.3,"opacity":1}]'
+      >
         <PricingFluidPlans
           label="Simple Pricing"
           title="See your design before you pay anything"
@@ -445,7 +490,14 @@ export default function HomePage() {
         />
       </div>
 
-      <div id="faq" data-webild-section="FaqStickyAccordion" data-webild-section-id="FaqStickyAccordion-1" data-section="faq">
+      <div
+        id="faq"
+        data-webild-section="FaqStickyAccordion"
+        data-webild-section-id="FaqStickyAccordion-1"
+        data-section="faq"
+        data-particle="overview"
+        data-model='[{"at":0,"x":-0.38,"y":0.04,"rx":15,"ry":-115,"rz":6,"scale":1.15,"opacity":0.95},{"at":1,"x":-0.35,"y":-0.06,"rx":-20,"ry":25,"rz":-8,"scale":1.2,"opacity":0.95}]'
+      >
         <FaqStickyAccordion
           label="FAQ"
           title="Before you request a mockup"
@@ -484,7 +536,14 @@ export default function HomePage() {
         />
       </div>
 
-      <div id="contact" data-webild-section="ContactFluidForm" data-webild-section-id="ContactFluidForm-1" data-section="contact">
+      <div
+        id="contact"
+        data-webild-section="ContactFluidForm"
+        data-webild-section-id="ContactFluidForm-1"
+        data-section="contact"
+        data-particle="close"
+        data-model='[{"at":0,"x":0.35,"y":-0.02,"rx":-15,"ry":35,"rz":-10,"scale":1.3,"opacity":1},{"at":1,"x":0.38,"y":0.08,"rx":25,"ry":-65,"rz":15,"scale":1.4,"opacity":1}]'
+      >
         <ContactFluidForm
           tag="Get started"
           title="Get your free homepage mockup."
