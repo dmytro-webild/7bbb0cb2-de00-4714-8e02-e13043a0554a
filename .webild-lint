@@ -1,0 +1,10 @@
+src/components/Layout.tsx
+src/components/sections/contact/ContactFluidForm.tsx
+src/components/sections/faq/FaqStickyAccordion.tsx
+src/components/sections/features/IntegrationsTileGrid.tsx
+src/components/sections/features/ProcessFluidSteps.tsx
+src/components/sections/footer/FooterSubscribeWordmark.tsx
+src/components/sections/hero/HeroFluidDashboard.tsx
+src/components/sections/pricing/PricingFluidPlans.tsx
+src/components/sections/testimonial/TestimonialGlassSlider.tsx
+src/pages/HomePage.tsx
