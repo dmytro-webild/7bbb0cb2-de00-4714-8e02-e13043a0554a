@@ -11,10 +11,10 @@ export default function HomePage() {
     <>
       <div id="hero" data-webild-section="HeroFluidDashboard" data-webild-section-id="HeroFluidDashboard-1" data-section="hero">
         <HeroFluidDashboard
-          tag="Websites for West Valley Shops"
+          tag="Websites for West Valley Shops · tapline.services"
           title="Fast websites for local businesses."
           mutedTitle="for local businesses."
-          description="Get a free custom homepage mockup for your Saratoga, Los Gatos, or Campbell business. Go live in about two weeks."
+          description="Get a free custom homepage mockup for your Saratoga, Los Gatos, or Campbell business. Call (415) 530-1293 or request online. Go live in about two weeks."
           primaryButton={{
             text: "Get free mockup",
             href: "#contact"
@@ -25,7 +25,7 @@ export default function HomePage() {
           }}
           variant="chart"
           dashboard={{
-            appName: "Tapline",
+            appName: "tapline.services",
             menuLabel: "Menu",
             navItems: [
               {
@@ -182,7 +182,7 @@ export default function HomePage() {
           items={[
             {
               title: "Quick 10-minute chat",
-              description: "We stop by your shop or call to learn about your services, hours, and target clients in Los Gatos or Saratoga.",
+              description: "We stop by your shop or call (415) 530-1293 to learn about your services, hours, and target clients in Los Gatos, Saratoga, or Campbell.",
               ui: {
                 kind: "connect",
                 variant: "stack",
@@ -520,7 +520,7 @@ export default function HomePage() {
           ]}
           contactCard={{
             title: "Have more questions?",
-            description: "Call (408) 550-8275 or send a message to discuss your shop site.",
+            description: "Call (415) 530-1293 or send a message to discuss your shop site with tapline.services.",
             button: {
               text: "Get free mockup",
               href: "#contact"
@@ -557,7 +557,7 @@ export default function HomePage() {
               initials: "MV"
             }
           ]}
-          note="Free mockup in two days"
+          note="Free mockup in two days · Call or text (415) 530-1293"
         />
       </div>
     </>

@@ -9,15 +9,15 @@
 
 /* webild:theme-ai */
 :root {
-  --primary-cta: #f4f4f5;
-  --primary-cta-text: #0c0b0c;
-  --secondary-cta: #171618;
-  --secondary-cta-text: #f4f4f5;
-  --background-accent: #c8206a;
+  --primary-cta: #38bdf8;
+  --primary-cta-text: #050b14;
+  --secondary-cta: #131b2e;
+  --secondary-cta-text: #f0f6fe;
+  --background-accent: #2563eb;
 
-  --background: #0c0b0c;
-  --foreground: #f4f4f5;
-  --card: #121112;
+  --background: #080b11;
+  --foreground: #f0f4fc;
+  --card: #101623;
   --card-foreground: var(--foreground);
   --popover: var(--card);
   --popover-foreground: var(--foreground);
@@ -25,17 +25,22 @@
   --primary-foreground: var(--primary-cta-text);
   --secondary: var(--secondary-cta);
   --secondary-foreground: var(--secondary-cta-text);
-  --muted: #171618;
-  --muted-foreground: #938f93;
+  --muted: #162032;
+  --muted-foreground: #8fa0be;
   --accent: var(--background-accent);
-  --accent-foreground: #f4f4f5;
-  --deep: #0a0306;
-  --deep-foreground: #f4f4f5;
+  --accent-foreground: #ffffff;
+  --deep: #050811;
+  --deep-foreground: #f0f4fc;
   --destructive: #f87171;
   --destructive-foreground: #0c0c0e;
-  --border: #222023;
-  --input: #202024;
-  --ring: var(--primary-cta);
+  --border: #1d283a;
+  --input: #151d2e;
+  --ring: var(--background-accent);
+
+  --particle-a: #38bdf8;
+  --particle-b: #2563eb;
+  --particle-c: #0284c7;
+  --particle-d: #1d4ed8;
 
   --font-heading: "Space Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-body: "Plus Jakarta Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -117,6 +122,8 @@
 
   html {
     background-color: var(--background);
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
   }
 
   ::selection {
