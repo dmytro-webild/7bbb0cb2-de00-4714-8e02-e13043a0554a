@@ -18,6 +18,10 @@ export default function Layout() {
               href: "#process"
             },
             {
+              name: "Local Standing",
+              href: "#associations"
+            },
+            {
               name: "Pricing",
               href: "#pricing"
             },
@@ -62,6 +66,10 @@ export default function Layout() {
                 {
                   text: "Sample designs",
                   href: "#integrations"
+                },
+                {
+                  text: "Local Standing",
+                  href: "#associations"
                 },
                 {
                   text: "Pricing",
