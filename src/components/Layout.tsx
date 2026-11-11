@@ -7,7 +7,7 @@ export default function Layout() {
     <div className="relative isolate min-h-svh flex flex-col bg-background text-foreground" data-button="default" data-card="filled" data-pattern="none">
       <header data-webild-section="Header">
         <NavbarLoginTab
-          brand="Tapline"
+          brand="tapline.services"
           navItems={[
             {
               name: "Sample sites",
@@ -35,8 +35,8 @@ export default function Layout() {
             href: "#contact"
           }}
           secondaryButton={{
-            text: "Call (408) 550-8275",
-            href: "tel:4085508275"
+            text: "Call (415) 530-1293",
+            href: "tel:4155301293"
           }}
         />
       </header>
@@ -45,10 +45,10 @@ export default function Layout() {
       </main>
       <footer data-webild-section="Footer" data-section="footer">
         <FooterSubscribeWordmark
-          brand="Tapline"
-          description="Fast, custom websites for local businesses in Saratoga, Los Gatos, and Campbell. Get a free homepage mockup with no commitment."
+          brand="tapline.services"
+          description="Fast, custom websites for local businesses in Saratoga, Los Gatos, and Campbell. Get a free homepage mockup with no commitment at tapline.services."
           subscribe={{
-            placeholder: "hello@tapline.com",
+            placeholder: "hello@tapline.services",
             button: "Get Free Mockup"
           }}
           columns={[
@@ -111,7 +111,7 @@ export default function Layout() {
                 },
                 {
                   text: "Get in touch",
-                  href: "mailto:hello@tapline.com"
+                  href: "mailto:hello@tapline.services"
                 }
               ]
             },
@@ -147,7 +147,7 @@ export default function Layout() {
               href: "#"
             }
           ]}
-          copyright="© 2026 Tapline. All rights reserved."
+          copyright="© 2026 tapline.services. All rights reserved."
         />
       </footer>
     </div>
