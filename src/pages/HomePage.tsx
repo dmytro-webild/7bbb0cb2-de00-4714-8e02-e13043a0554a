@@ -1,9 +1,8 @@
 import HeroFluidDashboard from "@/components/sections/hero/HeroFluidDashboard";
 import ProcessFluidSteps from "@/components/sections/features/ProcessFluidSteps";
 import IntegrationsTileGrid from "@/components/sections/features/IntegrationsTileGrid";
-import LocalAssociations from "@/components/sections/trust/LocalAssociations";
+import AboutLocalStudents from "@/components/sections/about/AboutLocalStudents";
 import PricingFluidPlans from "@/components/sections/pricing/PricingFluidPlans";
-import TestimonialGlassSlider from "@/components/sections/testimonial/TestimonialGlassSlider";
 import FaqStickyAccordion from "@/components/sections/faq/FaqStickyAccordion";
 import ContactFluidForm from "@/components/sections/contact/ContactFluidForm";
 
@@ -144,17 +143,17 @@ export default function HomePage() {
               ],
               rows: [
                 {
-                  title: "Rosa's Bakery",
+                  title: "Example Bakery",
                   meta: "Mockup Ready",
                   value: "Today"
                 },
                 {
-                  title: "Los Gatos Auto",
+                  title: "Example Auto Shop",
                   meta: "Live Site",
                   value: "Yesterday"
                 },
                 {
-                  title: "Campbell Tailors",
+                  title: "Example Tailor",
                   meta: "In Review",
                   value: "Oct 24"
                 }
@@ -381,8 +380,8 @@ export default function HomePage() {
         />
       </div>
 
-      <div id="associations" data-webild-section="LocalAssociations" data-webild-section-id="LocalAssociations-1" data-section="associations">
-        <LocalAssociations />
+      <div id="about" data-webild-section="AboutLocalStudents" data-webild-section-id="AboutLocalStudents-1" data-section="about">
+        <AboutLocalStudents />
       </div>
 
       <div id="pricing" data-webild-section="PricingFluidPlans" data-webild-section-id="PricingFluidPlans-1" data-section="pricing">
@@ -411,14 +410,15 @@ export default function HomePage() {
             },
             {
               name: "Full Website",
-              price: "Custom",
-              period: "one-time",
-              description: "Custom website built and live on your domain in about two weeks.",
+              price: "$0",
+              period: "then $20/mo",
+              description: "Founding offer: Free to build for our first 3 shops, then $20/month for hosting, your domain and updates. Cancel anytime.",
               features: [
-                "Complete website build",
+                "Free website build (first 3 shops)",
+                "$20/month hosting & custom domain",
                 "Google Maps profile link",
-                "Fast loading on phones",
-                "Text us for quick updates"
+                "Text us for quick updates",
+                "Cancel anytime with no fee"
               ],
               button: {
                 text: "Get free mockup",
@@ -440,57 +440,6 @@ export default function HomePage() {
                 text: "Order review card",
                 href: "#contact"
               }
-            }
-          ]}
-        />
-      </div>
-
-      <div id="testimonial" data-webild-section="TestimonialGlassSlider" data-webild-section-id="TestimonialGlassSlider-1" data-section="testimonial">
-        <TestimonialGlassSlider
-          label="Local Feedback"
-          title="What local shop owners say about Tapline"
-          mutedTitle="about Tapline"
-          description="See how small businesses around Saratoga, Los Gatos, and Campbell turn Google searchers into walk-in customers."
-          items={[
-            {
-              quote: "Tapline built our mockup in two days. Now searchers tap straight from Google to see our cake menu and open hours.",
-              name: "Rosa Chen",
-              role: "Owner, Rosa's Bakery",
-              metric: "2-day mockup",
-              imageSrc: "https://img.b2bpic.net/free-photo/portrait-young-female-entrepreneur-asian-business-owner-manager-sitting-confident-smiling-c_1258-127582.jpg",
-              imageAlt: "Portrait of young female entrepreneur asian business owner or manager sitting confident smiling at c"
-            },
-            {
-              quote: "We had no website for three years. Having our pricing and phone button right on mobile brought in twelve new callers this week.",
-              name: "Michael Torres",
-              role: "Owner, Torres Auto Repair",
-              metric: "12 new callers",
-              imageSrc: "https://img.b2bpic.net/free-photo/coffee-business-owner-concept-portrait-happy-young-bearded-caucasian-barista-apron-with-confident-looking-smiling-camera-coffee-shop-counter_1258-103925.jpg",
-              imageAlt: "Coffee Business owner Concept Portrait of happy young bearded caucasian barista in apron with confident looking and smiling to camera in coffee shop counter"
-            },
-            {
-              quote: "The free homepage mockup convinced us immediately. Our regulars love seeing updated holiday hours without having to call.",
-              name: "Elena Rodriguez",
-              role: "Founder, Studio Salon",
-              metric: "Free mockup",
-              imageSrc: "https://img.b2bpic.net/free-photo/close-up-female-architect-drawing-sketches-white-paper_23-2148073279.jpg",
-              imageAlt: "Close-up of female architect drawing the sketches on white paper"
-            },
-            {
-              quote: "Updating our summer hours took one text message. Having someone local handle the site saved me dozens of hours.",
-              name: "David Kim",
-              role: "Manager, Campbell Tailors",
-              metric: "1 text update",
-              imageSrc: "https://img.b2bpic.net/free-photo/african-man-traditional-clothes-glasses-with-laptop-working-outdoor_627829-2397.jpg",
-              imageAlt: "African man in traditional clothes and glasses with laptop working outdoor"
-            },
-            {
-              quote: "Google searchers used to land on dead links. Now they see our full menu and tap directly to call or get directions.",
-              name: "Sarah Miller",
-              role: "Co-owner, Oak Street Cafe",
-              metric: "+35% map taps",
-              imageSrc: "https://img.b2bpic.net/free-photo/person-cafe-enjoying-book_23-2150064692.jpg",
-              imageAlt: "Person in a cafe enjoying a book"
             }
           ]}
         />
