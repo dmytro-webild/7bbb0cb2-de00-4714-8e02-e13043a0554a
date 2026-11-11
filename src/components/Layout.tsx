@@ -18,8 +18,8 @@ export default function Layout() {
               href: "#process"
             },
             {
-              name: "Local Standing",
-              href: "#associations"
+              name: "About",
+              href: "#about"
             },
             {
               name: "Pricing",
@@ -28,10 +28,6 @@ export default function Layout() {
             {
               name: "FAQ",
               href: "#faq"
-            },
-            {
-              name: "Reviews",
-              href: "#testimonial"
             }
           ]}
           primaryButton={{
@@ -68,16 +64,12 @@ export default function Layout() {
                   href: "#integrations"
                 },
                 {
-                  text: "Local Standing",
-                  href: "#associations"
+                  text: "About",
+                  href: "#about"
                 },
                 {
                   text: "Pricing",
                   href: "#pricing"
-                },
-                {
-                  text: "Client reviews",
-                  href: "#testimonial"
                 }
               ]
             },
