@@ -784,7 +784,7 @@ export default function ModelStage({ src = DEFAULT_SRC, model, node, size = 2.26
       }}
       data-model-stage
       aria-hidden="true"
-      className="pointer-events-none fixed inset-x-0 top-0 z-40 h-lvh"
+      className="pointer-events-none fixed inset-x-0 top-0 -z-5 h-lvh"
     >
       <Canvas
         frameloop="demand"
