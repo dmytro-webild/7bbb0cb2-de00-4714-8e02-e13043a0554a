@@ -25,7 +25,7 @@ export default function HomePage() {
         data-webild-section-id="HeroFluidDashboard-1"
         data-section="hero"
         data-particle="hero"
-        data-model='[{"x":0.38,"y":0.04,"rx":22,"ry":-28,"rz":12,"scale":1.25,"opacity":1},{"at":1,"x":0.36,"y":-0.05,"rx":-12,"ry":38,"rz":-8,"scale":1.32,"opacity":1}]'
+        data-model='[{"at":0,"x":0.38,"y":0.08,"rx":25,"ry":-45,"rz":15,"scale":1.25,"opacity":0.95},{"at":1,"x":0.35,"y":-0.04,"rx":-20,"ry":65,"rz":-10,"scale":1.3,"opacity":1}]'
       >
         <HeroFluidDashboard
           tag="Websites for West Valley Shops · tapline.services"
