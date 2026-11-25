@@ -28,37 +28,37 @@ export default function HomePage() {
         data-model='[{"at":0,"x":0.38,"y":0.08,"rx":25,"ry":-45,"rz":15,"scale":1.25,"opacity":0.95},{"at":1,"x":0.35,"y":-0.04,"rx":-20,"ry":65,"rz":-10,"scale":1.3,"opacity":1}]'
       >
         <HeroFluidDashboard
-          tag="Websites for West Valley Shops · tapline.services"
-          title="Fast websites for local businesses."
-          mutedTitle="for local businesses."
-          description="Convert more local searchers into paying customers with a high-speed, mobile-first website."
+          tag="Google NFC Review Cards · tapline.services"
+          title="Get 5x more Google reviews with custom NFC cards."
+          mutedTitle="with custom NFC cards."
+          description="Place custom-printed Google NFC cards on your counter. Customers tap their phone to instantly open your 5-star review page. Plus, pair with a custom local website."
           primaryButton={{
-            text: "Get free mockup",
-            href: "#contact"
+            text: "Order Google NFC Card",
+            href: "#pricing"
           }}
           secondaryButton={{
-            text: "See sample sites",
+            text: "Explore Websites",
             href: "#integrations"
           }}
           variant="chart"
           dashboard={{
-            appName: "tapline.services",
+            appName: "Tapline NFC Cards",
             menuLabel: "Menu",
             navItems: [
               {
-                label: "Mockups",
+                label: "NFC Cards",
                 icon: "overview"
               },
               {
-                label: "Live Sites",
-                icon: "globe"
-              },
-              {
-                label: "Google Profile",
+                label: "Google Reviews",
                 icon: "chart"
               },
               {
-                label: "Client Leads",
+                label: "Card Taps",
+                icon: "globe"
+              },
+              {
+                label: "Website Previews",
                 icon: "users"
               },
               {
@@ -80,10 +80,10 @@ export default function HomePage() {
             ],
             pageTitle: "Overview",
             greeting: "Welcome local business",
-            subline: "Track your website preview and Google Maps views.",
+            subline: "Track your NFC card taps and Google review growth.",
             stats: [
               {
-                label: "Google Searches",
+                label: "Google NFC Taps",
                 value: "1,420",
                 delta: "+24%",
                 points: [
@@ -98,7 +98,7 @@ export default function HomePage() {
                 ]
               },
               {
-                label: "Website Taps",
+                label: "5-Star Google Reviews",
                 value: "385",
                 delta: "+18%",
                 points: [
@@ -114,9 +114,9 @@ export default function HomePage() {
               }
             ],
             chart: {
-              title: "Weekly Visits",
+              title: "Weekly Card Taps",
               legend: [
-                "Views",
+                "Taps",
                 "Target"
               ],
               bars: [
@@ -153,7 +153,7 @@ export default function HomePage() {
               ]
             },
             table: {
-              title: "Recent Previews",
+              title: "Recent Card Orders",
               columns: [
                 "Business",
                 "Status"
@@ -161,28 +161,28 @@ export default function HomePage() {
               rows: [
                 {
                   title: "Example Bakery",
-                  meta: "Mockup Ready",
-                  value: "Today"
+                  meta: "Custom NFC Card",
+                  value: "Delivered"
                 },
                 {
                   title: "Example Auto Shop",
-                  meta: "Live Site",
-                  value: "Yesterday"
+                  meta: "NFC Card + Website",
+                  value: "Active"
                 },
                 {
                   title: "Example Tailor",
-                  meta: "In Review",
-                  value: "Oct 24"
+                  meta: "Review Card",
+                  value: "Processing"
                 }
               ]
             },
             promo: {
-              title: "Free Mockup Offer",
-              text: "See your site before paying anything.",
-              progress: 0.85,
+              title: "Google NFC Review Card",
+              text: "Turn counter visits into 5-star Google reviews.",
+              progress: 0.9,
               button: {
-                text: "Get My Mockup",
-                href: "#contact"
+                text: "Order Card",
+                href: "#pricing"
               }
             }
           }}
@@ -199,127 +199,127 @@ export default function HomePage() {
         data-model='[{"at":0,"x":-0.38,"y":0.06,"rx":-15,"ry":140,"rz":15,"scale":1.22,"opacity":1},{"at":0.5,"x":-0.34,"y":-0.02,"rx":25,"ry":220,"rz":-10,"scale":1.35,"opacity":1},{"at":1,"x":-0.38,"y":-0.08,"rx":10,"ry":310,"rz":5,"scale":1.22,"opacity":1}]'
       >
         <ProcessFluidSteps
-          tag="How it works"
-          title="From free mockup to live site in two weeks."
-          mutedTitle="in two weeks."
-          description="We turn your business hours, price list, and Google reviews into a fast website that turns local searchers into paying clients."
+          tag="How NFC cards work"
+          title="From instant counter tap to 5-star Google review."
+          mutedTitle="to 5-star Google review."
+          description="We encode your shop's Google review link onto custom NFC cards for your counter, with the option to pair with a matching high-speed website."
           items={[
             {
-              title: "Quick 10-minute chat",
-              description: "We stop by your shop or call (415) 530-1293 to learn about your services, hours, and target clients in Los Gatos, Saratoga, or Campbell.",
+              title: "Quick 10-minute order",
+              description: "Provide your shop's Google Business Profile review link and logo for Saratoga, Los Gatos, or Campbell shops.",
               ui: {
                 kind: "connect",
                 variant: "stack",
                 sources: [
                   {
-                    label: "Chat",
+                    label: "Google Link",
                     icon: "chat"
                   },
                   {
-                    label: "Mail",
+                    label: "Shop Logo",
                     icon: "mail"
                   },
                   {
-                    label: "Notes",
+                    label: "Address",
                     icon: "file"
                   }
                 ]
               }
             },
             {
-              title: "Gather shop info",
-              description: "We collect your current price list, opening hours, address, and top Google reviews so your site looks real and complete.",
+              title: "Custom NFC card setup",
+              description: "We program your Google review URL onto a high-durability NFC card with custom shop branding and QR fallback.",
               ui: {
                 kind: "connect",
                 variant: "hub",
                 sources: [
                   {
-                    label: "Photos",
+                    label: "NFC Chip",
                     icon: "folder"
                   },
                   {
-                    label: "Details",
+                    label: "Print Logo",
                     icon: "file"
                   },
                   {
-                    label: "Reviews",
+                    label: "QR Code",
                     icon: "users"
                   }
                 ]
               }
             },
             {
-              title: "Get free mockup",
-              description: "Receive a mobile-first homepage preview built with your actual business name, photos, and hours with no commitment.",
+              title: "Place card on counter",
+              description: "Set your branded card at your checkout register, front desk, or dining table so customers see it right away.",
               ui: {
                 kind: "approve",
                 variant: "checklist",
-                title: "Homepage draft",
-                badge: "Free",
-                primary: "View mockup",
-                secondary: "Share"
+                title: "Card setup",
+                badge: "Ready",
+                primary: "Place on counter",
+                secondary: "Details"
               }
             },
             {
-              title: "Structure core offer",
-              description: "We highlight your main service offerings and direct phone call triggers right at the top for local mobile searchers.",
+              title: "Tap & leave 5-star review",
+              description: "Customers tap their iPhone or Android phone against the card, opening your Google review form in seconds.",
               ui: {
                 kind: "ranked",
                 variant: "list",
-                title: "Shop priority",
-                badge: "Mobile",
+                title: "Tap actions",
+                badge: "Instant",
                 rows: [
                   {
-                    label: "Call button",
+                    label: "Phone tap",
+                    value: 0.98
+                  },
+                  {
+                    label: "Auto link open",
                     value: 0.95
                   },
                   {
-                    label: "Price list",
-                    value: 0.85
-                  },
-                  {
-                    label: "Store hours",
-                    value: 0.75
+                    label: "5-star submission",
+                    value: 0.9
                   }
                 ]
               }
             },
             {
-              title: "Review and refine",
-              description: "We adjust text, photos, and contact links based on your feedback before anything goes live to searchers.",
+              title: "Boost Google Maps rank",
+              description: "Watch your 5-star review count climb every week, driving more foot traffic and local searchers to your shop.",
               ui: {
                 kind: "approve",
                 variant: "checklist",
-                title: "Final check",
-                badge: "Step 5",
+                title: "Review growth",
+                badge: "SEO",
                 tasks: [
-                  "Verify prices",
-                  "Test call button",
-                  "Check address"
+                  "More 5-star reviews",
+                  "Higher Google ranking",
+                  "More phone calls"
                 ],
-                primary: "Approve site",
-                secondary: "Edit"
+                primary: "Track growth",
+                secondary: "Stats"
               }
             },
             {
-              title: "Launch on Google",
-              description: "We connect your custom domain and link your new website directly to your Google Business Profile.",
+              title: "Add optional website",
+              description: "Pair your NFC cards with a custom high-speed website so local searchers can browse your hours, prices, and services.",
               ui: {
                 kind: "ranked",
                 variant: "list",
-                title: "Launch status",
-                badge: "Live",
+                title: "Website option",
+                badge: "Add-on",
                 rows: [
                   {
-                    label: "Domain link",
+                    label: "Mobile design",
                     value: 0.95
                   },
                   {
-                    label: "Google Maps",
+                    label: "Google Maps link",
                     value: 0.9
                   },
                   {
-                    label: "Mobile speed",
+                    label: "Price list",
                     value: 0.85
                   }
                 ]
@@ -338,13 +338,13 @@ export default function HomePage() {
         data-model='[{"at":0,"x":0.38,"y":-0.06,"rx":28,"ry":-65,"rz":-15,"scale":1.15,"opacity":1},{"at":1,"x":0.35,"y":0.05,"rx":-25,"ry":35,"rz":12,"scale":1.25,"opacity":1}]'
       >
         <IntegrationsTileGrid
-          label="Sample sites"
-          title="Built to fit your local business."
-          mutedTitle="Not a template."
-          description="Every business gets custom colors, hours, prices, and one-tap calling. Here are sample styles built for local shops in Los Gatos, Saratoga, and Campbell."
+          label="Card Styles & Industries"
+          title="Custom Google NFC cards for every shop."
+          mutedTitle="for every shop."
+          description="Durable, high-touch counter cards customized with your logo. Perfect for local shops across Saratoga, Los Gatos, and Campbell, with optional site design."
           button={{
-            text: "Get a free mockup",
-            href: "#contact"
+            text: "Order Google NFC Card",
+            href: "#pricing"
           }}
           items={[
             {
@@ -432,29 +432,46 @@ export default function HomePage() {
       >
         <PricingFluidPlans
           label="Simple Pricing"
-          title="See your design before you pay anything"
-          mutedTitle="no hidden fees."
-          description="Every project starts with a free homepage mockup. You receive a clear upfront price after seeing your new design."
+          title="Get Google NFC cards & local websites"
+          mutedTitle="local websites."
+          description="Boost your Google reviews with our $39 counter NFC card, or bundle it with a custom mobile-first website."
           items={[
             {
-              name: "Free Mockup",
-              price: "$0",
-              period: "free",
-              description: "See your homepage built with your real business info and top reviews.",
+              name: "Google NFC Review Card",
+              price: "$39",
+              period: "one-time",
+              description: "Custom printed tap card for your counter so customers leave Google reviews fast.",
               features: [
-                "Full homepage visual design",
-                "Customized to your local market",
-                "Uses real reviews & hours",
-                "Mobile optimized layout",
-                "No credit card required"
+                "Custom printed logo card",
+                "Instant tap to review chip",
+                "Pre-programmed Google link",
+                "QR code fallback included",
+                "Zero ongoing monthly fees"
               ],
               button: {
-                text: "Get free mockup",
+                text: "Order review card",
                 href: "#contact"
               }
             },
             {
-              name: "Full Website",
+              name: "NFC Card + Website Bundle",
+              price: "$39",
+              period: "then $20/mo",
+              description: "Our top bundle: custom Google NFC card paired with a full mobile-first website for local shops.",
+              features: [
+                "Includes 1 Google NFC Review Card",
+                "Free website build ($0 setup fee)",
+                "$20/month hosting & custom domain",
+                "Google Maps profile link",
+                "Text us for quick updates"
+              ],
+              button: {
+                text: "Get NFC + Website",
+                href: "#contact"
+              }
+            },
+            {
+              name: "Website Only",
               price: "$0",
               period: "then $20/mo",
               description: "Founding offer: Free to build for our first 3 shops, then $20/month for hosting, your domain and updates. Cancel anytime.",
@@ -467,22 +484,6 @@ export default function HomePage() {
               ],
               button: {
                 text: "Get free mockup",
-                href: "#contact"
-              }
-            },
-            {
-              name: "Review Card",
-              price: "$39",
-              period: "one-time",
-              description: "Custom tap card for your counter so customers leave Google reviews fast.",
-              features: [
-                "Custom printed logo card",
-                "Instant tap to review",
-                "Works with all smartphones",
-                "Zero ongoing monthly fees"
-              ],
-              button: {
-                text: "Order review card",
                 href: "#contact"
               }
             }
@@ -500,36 +501,36 @@ export default function HomePage() {
       >
         <FaqStickyAccordion
           label="FAQ"
-          title="Before you request a mockup"
-          mutedTitle="request a mockup"
-          description="Clear answers about timelines, updates, and setup for Saratoga, Los Gatos, and Campbell local businesses."
+          title="Everything about Google NFC cards"
+          mutedTitle="about Google NFC cards"
+          description="Clear answers about setup, instant taps, monthly fees, and website add-ons for Saratoga, Los Gatos, and Campbell local businesses."
           items={[
             {
-              question: "What is the free mockup?",
-              answer: "We create a full homepage design with your real shop name, hours, and photos. It is yours to keep with no obligation."
+              question: "What is a Google NFC card?",
+              answer: "It is a compact counter card with an embedded NFC microchip. When customers tap their iPhone or Android phone against it, their phone instantly opens your official 5-star Google review page."
             },
             {
-              question: "How long does setup take?",
-              answer: "Once you approve the mockup, your site is fully built and live in about two weeks."
+              question: "Do customers need an app to tap the card?",
+              answer: "No app required! NFC works natively on all modern smartphones. Customers simply tap their phone or scan the printed QR fallback."
             },
             {
-              question: "How do text updates work?",
-              answer: "Send a text whenever your prices, hours, or services change. We update the site for you."
+              question: "Are there any recurring monthly fees for NFC cards?",
+              answer: "No monthly fees for the Google NFC card. It is a single one-time payment of $39 with zero subscription fees."
             },
             {
-              question: "Can I keep my current booking software?",
-              answer: "Yes. We link your existing Square, Fresha, or custom booking tool right into the main action button."
+              question: "Do you also build custom local websites?",
+              answer: "Yes! While Google NFC review cards are our main product, we also build and host high-speed websites tailored for local shops in Saratoga, Los Gatos, and Campbell."
             },
             {
-              question: "Do I need to sign a long contract?",
-              answer: "No long-term contracts. You see your design first before paying anything, and pricing is clear upfront."
+              question: "How fast will my custom NFC card arrive?",
+              answer: "We program your Google review link onto your custom card and hand-deliver or ship it within 2 to 3 days."
             }
           ]}
           contactCard={{
-            title: "Have more questions?",
-            description: "Call (415) 530-1293 or send a message to discuss your shop site with tapline.services.",
+            title: "Ready for more 5-star Google reviews?",
+            description: "Call (415) 530-1293 or send a message to order your custom Google NFC cards and local website with tapline.services.",
             button: {
-              text: "Get free mockup",
+              text: "Order NFC Card",
               href: "#contact"
             }
           }}
@@ -545,14 +546,14 @@ export default function HomePage() {
         data-model='[{"at":0,"x":0.35,"y":-0.02,"rx":-15,"ry":35,"rz":-10,"scale":1.3,"opacity":1},{"at":1,"x":0.38,"y":0.08,"rx":25,"ry":-65,"rz":15,"scale":1.4,"opacity":1}]'
       >
         <ContactFluidForm
-          tag="Get started"
-          title="Get your free homepage mockup."
-          mutedTitle="homepage mockup."
+          tag="Get Started"
+          title="Order your custom Google NFC card."
+          mutedTitle="Google NFC card."
           nameLabel="Your name"
           emailLabel="Email address"
-          companyLabel="Business name"
-          messageLabel="Business details"
-          submitText="Get my mockup"
+          companyLabel="Business name & city"
+          messageLabel="Google profile link or request details"
+          submitText="Order NFC Card"
           variant="calendar"
           avatars={[
             {
@@ -571,9 +572,10 @@ export default function HomePage() {
               initials: "MV"
             }
           ]}
-          note="Free mockup in two days · Call or text (415) 530-1293"
+          note="Delivered in 2-3 days · Call or text (415) 530-1293"
         />
       </div>
     </>
   );
 }
+
