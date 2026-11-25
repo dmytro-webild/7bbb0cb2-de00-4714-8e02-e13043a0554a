@@ -29,9 +29,9 @@ export default function HomePage() {
       >
         <HeroFluidDashboard
           tag="Google NFC Review Cards · tapline.services"
-          title="Get 5x more Google reviews with custom NFC cards."
+          title="Make it easier to get Google reviews with custom NFC cards."
           mutedTitle="with custom NFC cards."
-          description="Place custom-printed Google NFC cards on your counter. Customers tap their phone to instantly open your 5-star review page. Plus, pair with a custom local website."
+          description="Place custom-printed Google NFC cards on your counter. Customers tap their phone to instantly open your Google review page. Plus, pair with a custom local website."
           primaryButton={{
             text: "Order Google NFC Card",
             href: "#pricing"
@@ -98,7 +98,7 @@ export default function HomePage() {
                 ]
               },
               {
-                label: "5-Star Google Reviews",
+                label: "Google Reviews",
                 value: "385",
                 delta: "+18%",
                 points: [
@@ -178,7 +178,7 @@ export default function HomePage() {
             },
             promo: {
               title: "Google NFC Review Card",
-              text: "Turn counter visits into 5-star Google reviews.",
+              text: "Make it simple for counter customers to leave Google reviews.",
               progress: 0.9,
               button: {
                 text: "Order Card",
@@ -200,8 +200,8 @@ export default function HomePage() {
       >
         <ProcessFluidSteps
           tag="How NFC cards work"
-          title="From instant counter tap to 5-star Google review."
-          mutedTitle="to 5-star Google review."
+          title="From instant counter tap to customer review."
+          mutedTitle="to customer review."
           description="We encode your shop's Google review link onto custom NFC cards for your counter, with the option to pair with a matching high-speed website."
           items={[
             {
@@ -261,7 +261,7 @@ export default function HomePage() {
               }
             },
             {
-              title: "Tap & leave 5-star review",
+              title: "Tap & leave a review",
               description: "Customers tap their iPhone or Android phone against the card, opening your Google review form in seconds.",
               ui: {
                 kind: "ranked",
@@ -278,23 +278,23 @@ export default function HomePage() {
                     value: 0.95
                   },
                   {
-                    label: "5-star submission",
+                    label: "Review submission",
                     value: 0.9
                   }
                 ]
               }
             },
             {
-              title: "Boost Google Maps rank",
-              description: "Watch your 5-star review count climb every week, driving more foot traffic and local searchers to your shop.",
+              title: "Grow your online presence",
+              description: "Watch your customer review count climb every week, helping local searchers find your shop.",
               ui: {
                 kind: "approve",
                 variant: "checklist",
                 title: "Review growth",
-                badge: "SEO",
+                badge: "Visibility",
                 tasks: [
-                  "More 5-star reviews",
-                  "Higher Google ranking",
+                  "More customer reviews",
+                  "Better online presence",
                   "More phone calls"
                 ],
                 primary: "Track growth",
@@ -434,19 +434,19 @@ export default function HomePage() {
           label="Simple Pricing"
           title="Get Google NFC cards & local websites"
           mutedTitle="local websites."
-          description="Boost your Google reviews with our $39 counter NFC card, or bundle it with a custom mobile-first website."
+          description="Get a counter NFC card for a one-time $15 payment, upgrade to Tapline Pro for analytics and dynamic links, or pair with a custom website."
           items={[
             {
               name: "Google NFC Review Card",
-              price: "$39",
+              price: "$15",
               period: "one-time",
-              description: "Custom printed tap card for your counter so customers leave Google reviews fast.",
+              description: "Custom printed tap card for your counter so customers can easily open your review link.",
               features: [
                 "Custom printed logo card",
                 "Instant tap to review chip",
                 "Pre-programmed Google link",
                 "QR code fallback included",
-                "Zero ongoing monthly fees"
+                "Card continues to redirect permanently"
               ],
               button: {
                 text: "Order review card",
@@ -454,12 +454,30 @@ export default function HomePage() {
               }
             },
             {
-              name: "NFC Card + Website Bundle",
-              price: "$39",
-              period: "then $20/mo",
-              description: "Our top bundle: custom Google NFC card paired with a full mobile-first website for local shops.",
+              name: "Tapline Pro",
+              price: "$9.99",
+              period: "/month",
+              description: "Dynamic NFC destinations, multiple cards and locations with link-visit analytics.",
               features: [
-                "Includes 1 Google NFC Review Card",
+                "Editable NFC destinations",
+                "Multiple cards & location support",
+                "Link-visit analytics (tracked as link opens)",
+                "Cash or online billing options",
+                "Basic cards continue to redirect after Pro expires"
+              ],
+              note: "Pro is being tested. Online payments are not live yet.",
+              button: {
+                text: "Explore Pro",
+                href: "https://tapline-pro.vercel.app"
+              }
+            },
+            {
+              name: "NFC Card + Website Bundle",
+              price: "$15",
+              period: "then $20/mo",
+              description: "Our top bundle: custom Google NFC card ($15 one-time) paired with a full mobile-first website for local shops.",
+              features: [
+                "Includes 1 Google NFC Review Card ($15)",
                 "Free website build ($0 setup fee)",
                 "$20/month hosting & custom domain",
                 "Google Maps profile link",
@@ -507,7 +525,7 @@ export default function HomePage() {
           items={[
             {
               question: "What is a Google NFC card?",
-              answer: "It is a compact counter card with an embedded NFC microchip. When customers tap their iPhone or Android phone against it, their phone instantly opens your official 5-star Google review page."
+              answer: "It is a compact counter card with an embedded NFC microchip. When customers tap their iPhone or Android phone against it, their phone instantly opens your official Google review page."
             },
             {
               question: "Do customers need an app to tap the card?",
@@ -515,7 +533,7 @@ export default function HomePage() {
             },
             {
               question: "Are there any recurring monthly fees for NFC cards?",
-              answer: "No monthly fees for the Google NFC card. It is a single one-time payment of $39 with zero subscription fees."
+              answer: "No monthly fees for the basic Google NFC card. It is a single one-time payment of $15 with zero subscription fees."
             },
             {
               question: "Do you also build custom local websites?",
@@ -527,7 +545,7 @@ export default function HomePage() {
             }
           ]}
           contactCard={{
-            title: "Ready for more 5-star Google reviews?",
+            title: "Ready to get more customer Google reviews?",
             description: "Call (415) 530-1293 or send a message to order your custom Google NFC cards and local website with tapline.services.",
             button: {
               text: "Order NFC Card",

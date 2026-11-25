@@ -78,6 +78,15 @@ export default function NavbarLoginTab({
               {mark}
               <p className="text-[length:var(--text-h3)] font-medium leading-none tracking-[-0.03em]">{brand}</p>
             </a>
+            <ul className="hidden lg:flex items-center gap-4 xl:gap-6 ml-6">
+              {navItems.map((item, i) => (
+                <li key={`${i}-${item.href}`}>
+                  <a href={item.href} className="text-[length:var(--text-small)] font-medium text-muted-foreground hover:text-foreground transition-colors">
+                    {item.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
             <div className="ml-auto flex shrink-0 items-center gap-2">
               {secondaryButton && (
                 <a href={secondaryButton.href} className="btn-secondary hidden lg:inline-flex">
