@@ -80,7 +80,7 @@ export default function HomePage() {
             ],
             pageTitle: "Overview",
             greeting: "Welcome local business",
-            subline: "Track your NFC card taps and Google review growth.",
+            subline: "Track your NFC card taps and Google review growth. (Illustrative demo — sample numbers, not customer results)",
             stats: [
               {
                 label: "Google NFC Taps",
