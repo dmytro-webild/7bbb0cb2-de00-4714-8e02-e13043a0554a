@@ -279,6 +279,10 @@ export default function HeroFluidDashboard({
               )}
             </motion.div>
           )}
+          <motion.div {...rise(4)} className="mt-5 inline-flex items-center gap-2 rounded-lg border border-border bg-card/70 px-3 py-1.5 text-[length:var(--text-small)] text-muted-foreground">
+            <span className="size-1.5 rounded-full bg-accent" aria-hidden="true" />
+            <p>Illustrative demo — sample numbers, not customer results</p>
+          </motion.div>
         </div>
       </motion.div>
 
@@ -372,8 +376,11 @@ export default function HeroFluidDashboard({
 
                 <div className="min-w-0 flex-1">
                   {d.pageTitle && (
-                    <div className="border-b border-foreground/10 px-6 py-5">
+                    <div className="flex flex-wrap items-center justify-between gap-2 border-b border-foreground/10 px-6 py-4">
                       <p className="text-[length:var(--text-body)] font-medium leading-none">{d.pageTitle}</p>
+                      <span className="rounded-md border border-foreground/15 bg-foreground/10 px-2.5 py-1 text-[length:var(--text-label)] font-medium text-muted-foreground">
+                        Illustrative demo — sample numbers, not customer results
+                      </span>
                     </div>
                   )}
                   <div className="p-6">
