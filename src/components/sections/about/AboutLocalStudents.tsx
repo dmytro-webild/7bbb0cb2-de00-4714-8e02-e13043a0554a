@@ -16,7 +16,7 @@ export default function AboutLocalStudents({
   label = "About Us",
   title = "Local students building for local shops.",
   mutedTitle = "building for local shops.",
-  description = "Tapline is run by Kian Soltani and Corey Chiang, two students at Saratoga High School. We build websites for local shops in Saratoga, Los Gatos and Campbell, and we meet every owner in person.",
+  description = "Tapline is run by Kian Soltani and Corey Chiang, two students at Saratoga High School. We provide custom Google NFC review cards and websites for local shops in Saratoga, Los Gatos and Campbell, and we meet every owner in person.",
   ariaLabel = "About Tapline",
   className = "",
 }: AboutLocalStudentsProps) {

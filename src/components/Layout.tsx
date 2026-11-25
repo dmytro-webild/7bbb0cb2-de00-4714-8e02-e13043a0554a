@@ -10,12 +10,16 @@ export default function Layout() {
           brand="tapline.services"
           navItems={[
             {
-              name: "Sample sites",
-              href: "#integrations"
+              name: "NFC Cards",
+              href: "#hero"
             },
             {
               name: "How it works",
               href: "#process"
+            },
+            {
+              name: "Card styles",
+              href: "#integrations"
             },
             {
               name: "About",
@@ -31,8 +35,8 @@ export default function Layout() {
             }
           ]}
           primaryButton={{
-            text: "Get free mockup",
-            href: "#contact"
+            text: "Order NFC Card",
+            href: "#pricing"
           }}
           secondaryButton={{
             text: "Call (415) 530-1293",
@@ -46,21 +50,25 @@ export default function Layout() {
       <footer data-webild-section="Footer" data-section="footer">
         <FooterSubscribeWordmark
           brand="tapline.services"
-          description="Fast, custom websites for local businesses in Saratoga, Los Gatos, and Campbell. Get a free homepage mockup with no commitment at tapline.services."
+          description="Custom Google NFC review cards for local shops in Saratoga, Los Gatos, and Campbell. Boost your 5-star Google reviews with instant tap cards, plus custom local web design."
           subscribe={{
             placeholder: "hello@tapline.services",
-            button: "Get Free Mockup"
+            button: "Order NFC Card"
           }}
           columns={[
             {
               title: "Navigation",
               links: [
                 {
+                  text: "Google NFC Cards",
+                  href: "#hero"
+                },
+                {
                   text: "How it works",
                   href: "#process"
                 },
                 {
-                  text: "Sample designs",
+                  text: "Card styles",
                   href: "#integrations"
                 },
                 {
@@ -74,23 +82,23 @@ export default function Layout() {
               ]
             },
             {
-              title: "Services",
+              title: "Products & Services",
               links: [
                 {
-                  text: "Free Homepage Mockup",
-                  href: "#hero"
+                  text: "Google NFC Review Cards",
+                  href: "#pricing"
                 },
                 {
-                  text: "Local Web Design",
+                  text: "NFC + Website Bundle",
+                  href: "#pricing"
+                },
+                {
+                  text: "Custom Local Web Design",
                   href: "#contact"
                 },
                 {
-                  text: "Google Profile Integration",
+                  text: "Google Maps Integration",
                   href: "#process"
-                },
-                {
-                  text: "Google NFC Cards",
-                  href: "#pricing"
                 }
               ]
             },
