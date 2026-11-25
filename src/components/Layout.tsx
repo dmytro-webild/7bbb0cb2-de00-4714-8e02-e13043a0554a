@@ -30,6 +30,10 @@ export default function Layout() {
               href: "#pricing"
             },
             {
+              name: "Customer Dashboard",
+              href: "https://tapline-pro.vercel.app"
+            },
+            {
               name: "FAQ",
               href: "#faq"
             }
@@ -50,7 +54,7 @@ export default function Layout() {
       <footer data-webild-section="Footer" data-section="footer">
         <FooterSubscribeWordmark
           brand="tapline.services"
-          description="Custom Google NFC review cards for local shops in Saratoga, Los Gatos, and Campbell. Boost your 5-star Google reviews with instant tap cards, plus custom local web design."
+          description="Custom Google NFC review cards for local shops in Saratoga, Los Gatos, and Campbell. Make it easier for customers to leave honest Google reviews with instant tap cards, plus custom local web design."
           subscribe={{
             placeholder: "hello@tapline.services",
             button: "Order NFC Card"
@@ -78,6 +82,10 @@ export default function Layout() {
                 {
                   text: "Pricing",
                   href: "#pricing"
+                },
+                {
+                  text: "Customer Dashboard",
+                  href: "https://tapline-pro.vercel.app"
                 }
               ]
             },
@@ -87,6 +95,10 @@ export default function Layout() {
                 {
                   text: "Google NFC Review Cards",
                   href: "#pricing"
+                },
+                {
+                  text: "Tapline Pro Dashboard",
+                  href: "https://tapline-pro.vercel.app"
                 },
                 {
                   text: "NFC + Website Bundle",

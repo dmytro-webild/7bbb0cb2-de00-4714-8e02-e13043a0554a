@@ -9,6 +9,7 @@ type Plan = {
   price: string;
   period?: string;
   description?: string;
+  note?: string;
   features?: string[];
   button?: { text: string; href: string };
   imageSrc?: string;
@@ -189,6 +190,11 @@ export default function PricingFluidPlans({
                   <a href={plan.button.href} className="btn-primary mt-auto w-full">
                     {plan.button.text}
                   </a>
+                )}
+                {plan.note && (
+                  <p className="mt-3 text-[length:var(--text-small)] font-medium text-amber-500/90 dark:text-amber-400/90 text-center">
+                    {plan.note}
+                  </p>
                 )}
               </div>
             </motion.li>
